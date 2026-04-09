@@ -1,4 +1,4 @@
-import { SafeAreaView, Text, View } from "react-native";
+import { Text, View } from "react-native";
 
 const Latihan_2 = () => {
   const personalData = [
@@ -15,7 +15,7 @@ const Latihan_2 = () => {
   ];
 
   return (
-    <SafeAreaView>
+    <View>
       <Text>latihan_2</Text>
       {personalData.map((item, index) => (
         <View key={index}>
@@ -28,7 +28,7 @@ const Latihan_2 = () => {
           </Text>
         </View>
       ))}
-    </SafeAreaView>
+    </View>
   );
 };
 
